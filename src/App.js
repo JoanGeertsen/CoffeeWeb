@@ -1,10 +1,14 @@
 import React from 'react';
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar/navbar";
+import Slider from './components/Slider/slider';
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
       <Navbar />
+      <div>
+        <Slider />
+      </div>
     </div>
   );
 }
