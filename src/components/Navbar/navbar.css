@@ -24,6 +24,7 @@ a {
   justify-content: space-around;
   height: 8vh;
   background: #1C2C4C;
+  z-index:1;
 }
 .nav__brand {
   text-transform: uppercase;

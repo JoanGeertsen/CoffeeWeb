@@ -19,6 +19,7 @@
   position: absolute;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
+  z-index:-1;
   /*animation: cambio 20s infinite alternate linear;*/
 }
 
@@ -33,7 +34,7 @@
   opacity: 1;
 }
 
-/*
+
 @keyframes cambio {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
@@ -46,7 +47,7 @@
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}*/
+}
 
 .btn-slide {
   width: 60px;
@@ -91,6 +92,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  z-index:-1;
 }
 
 .dot {
@@ -100,7 +102,6 @@
   border: 3px solid #f1f1f1;
   margin: 0 5px;
   background: #f1f1f1;
-  
 }
 
 .dot.active {
