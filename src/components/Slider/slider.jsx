@@ -25,9 +25,13 @@ export default function Slider() {
         }
     }
 
-    const moveDot = index => { //al tocar un puntito te lleva a la foto correspondiente a ese dot
+    const moveDot = index => {
         setSlideIndex(index)
     }
+
+    setInterval(function() {
+        nextSlide()
+      }, 10000);
 
     return (
         <div className="container-slider">
