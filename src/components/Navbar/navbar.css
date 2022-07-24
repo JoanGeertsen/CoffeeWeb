@@ -25,9 +25,16 @@ a {
   height: 8vh;
   background: #1C2C4C;
 }
-.nav__brand {
-  text-transform: uppercase;
+.nav_brand {
   margin-left: 3rem;
+  margin-top: 0.7rem;
+  max-width: 23rem;
+}
+
+.brand_img{
+  display: flex;
+  max-width: 18rem;
+  margin-top: auto;
 }
 
 .nav__menu {  
@@ -53,6 +60,7 @@ a {
     display: block;
     cursor: pointer;
     margin-right: 2rem;
+    z-index:3;
   }
   .nav__menu {
     position: fixed;
@@ -65,6 +73,16 @@ a {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    z-index: 3;
+  }
+
+  .nav_brand {
+    margin: auto;
+    max-width: 20rem;
+  }  
+
+  .brand_img{
+    display: none;
   }
 }
 /* Active Class */

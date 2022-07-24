@@ -16,9 +16,8 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">
-        WESTROCK
-      </a>
+      <img src={process.env.PUBLIC_URL + `/Imgs/WestrockcoffeelogoName.png` } alt="" className="nav_brand"/>
+      <img src={process.env.PUBLIC_URL + `/Imgs/Westrockcoffeelogo.png` } alt="" className="brand_img"/>
       <ul className={active}>
         <li className="nav__item">
           <a href="#" className="nav__link">

@@ -11,6 +11,32 @@ body {
   font-size: 1.6rem;
 }
 
-.Infbar{
-    background-color: #cabea4;
+.infbar{  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cabea4;
+}
+
+.iconContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: -1rem;
+}
+
+.iconFB{
+  max-width: 1.8rem;
+  margin-left: 3rem;
+}
+
+.iconIG{
+  max-width: 1.8rem;
+  margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .infbar{
+    display: none;
+}
 }
