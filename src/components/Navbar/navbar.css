@@ -35,6 +35,7 @@ a {
   display: flex;
   max-width: 18rem;
   margin-top: auto;
+  z-index: 4;
 }
 
 .nav__menu {  
